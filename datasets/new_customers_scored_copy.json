@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "user1"
     },
-    "lastModifiedOn": 1709765795377,
+    "lastModifiedOn": 1709765838977,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -82,7 +82,7 @@
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "new_customers_scored_copy",
     "connection": "s3-sensitive",
-    "path": "/dataiku/${projectKey}/new_customers_scored_copy",
+    "path": "/private/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
